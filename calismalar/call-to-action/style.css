@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui;
+}
+.container {
+  width: 1110px;
+  height: 349px;
+  background-color: #121212;
+  border-radius: 10px;
+  margin-inline: auto;
+  margin-top: 300px;
+}
+.left {
+  width: 426px;
+  height: 184px;
+  margin-left: 96px;
+  padding-top: 78px;
+}
+.left h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.left a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 72px;
+  border-radius: 3px;
+  background: #DC3545;
+  color: #fff;
+}
+.right {
+  float: right;
+  margin-top: -148px;
+  margin-right: 61.5px;
+}
